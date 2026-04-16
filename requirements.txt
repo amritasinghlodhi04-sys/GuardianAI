@@ -1,0 +1,25 @@
+# GuardianAI prototype — Python 3.10+
+# All components below are free: local CLIP (PyTorch), Instaloader (public IG), Gemini API free tier (optional).
+#
+# New machine setup:
+#   python -m venv .venv
+#   Windows: .\.venv\Scripts\activate
+#   macOS/Linux: source .venv/bin/activate
+#   pip install --upgrade pip
+#   pip install -r requirements.txt
+#
+# NVIDIA GPU (optional): install CUDA PyTorch from https://pytorch.org/ first, then:
+#   pip install -r requirements.txt --no-deps
+# and install torch/torchvision wheels manually.
+
+torch>=2.0,<3
+torchvision>=0.15,<1
+git+https://github.com/openai/CLIP.git
+numpy>=1.24
+opencv-python-headless>=4.8
+Pillow>=10
+requests>=2.28
+beautifulsoup4>=4.12
+instaloader>=4.10
+python-dotenv>=1.0
+google-generativeai>=0.3

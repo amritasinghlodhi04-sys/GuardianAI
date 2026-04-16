@@ -1,0 +1,18 @@
+{
+  "run_id": "20260415T142631Z",
+  "created_at": "2026-04-15T14:26:31.172341+00:00",
+  "input": "demo_assets\\official.jpg",
+  "mode": "offline-images",
+  "candidate_source": "demo_assets\\candidates",
+  "threshold": 0.88,
+  "query_is_video": false,
+  "num_queries": 1,
+  "num_candidates": 6,
+  "best_similarity": 0.9247804284095764,
+  "closest_candidate_file": "C:\\Users\\Arnav Mishra\\Desktop\\MyProjects\\CursorProjects\\GuardianAI\\demo_assets\\candidates\\Tiger92Match.jpg",
+  "query_idx": 0,
+  "candidate_idx": 4,
+  "potential_misuse": true,
+  "instagram_user": null,
+  "gemini_summary": "**Detection Summary: Asset Match Identified**\n\n*   **Analysis of Match:** A high cosine similarity score of **0.9248** suggests a strong visual correlation between `official.jpg` and the discovered file `Tiger92Match.jpg`. This likely indicates a direct copy, a slight modification (such as a crop or filter), or a derivative work. While visual similarity is high, the system cannot rule out coincidental resemblance or legitimate fair use without further context.\n*   **Verification & Next Steps:** \n    *   Perform a manual human review to confirm if the match is an unauthorized reproduction.\n    *   Verify internal licensing records to ensure the source is not a permitted third party.\n    *   **Disclaimer:** Consult with legal counsel to validate copyright ownership before initiating any formal takedown or DMCA process.\n*   **Urgency: High.** A score exceeding 0.90 typically represents a near-exact match, requiring immediate attention to prevent potential IP infringement or unauthorized distribution."
+}
